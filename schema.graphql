@@ -1,0 +1,18 @@
+type Profile {
+    username: String!
+    email: String
+    source: String!
+    avatar: String
+}
+
+type Account {
+    email: String!
+    hash: String!
+}
+
+type Query {
+    getProfile(username: String!): Profile
+    login(email: String!): Account
+}
+
+

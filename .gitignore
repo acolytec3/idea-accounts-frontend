@@ -1,0 +1,13 @@
+# Build stuff
+.next
+
+# node_modules
+node_modules
+package-lock.json
+
+# environmental variables
+.env.local
+.env.dev
+.env.offline
+
+.env
